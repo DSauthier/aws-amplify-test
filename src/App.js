@@ -7,7 +7,7 @@ var bcrypt = require("bcryptjs");
 
 function App() {
 
-  const saltRounds = 10;
+  const saltRounds = 15;
   const plainPassword1 = "HelloWorld";
   const plainPassword2 = "helloworld";
   const salt = bcrypt.genSaltSync(saltRounds);
